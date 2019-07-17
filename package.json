@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "test": "eslint --ignore-path .gitignore **/*.jsx"
+    "test": "jest",
+    "pretest": "eslint --ignore-path .gitignore **/*.jsx"
   },
   "author": "",
   "license": "ISC",
@@ -15,12 +16,19 @@
     "next-images": "^1.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "eslint": "^6.0.1",
     "eslint-plugin-jest": "^22.10.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|sass|scss|css|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/staticMock.js"
+    }
   }
 }

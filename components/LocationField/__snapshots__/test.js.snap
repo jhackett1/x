@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa jaOyYS"
+>
+  <label
+    className="sc-bwzfXH fMdlDy"
+    htmlFor="location"
+  >
+    Town or postcode
+  </label>
+  <input
+    className="sc-htpNat egThLt"
+    id="location"
+    name="location"
+    placeholder="Try 'Aylesbury'"
+    type="text"
+  />
+  <img
+    alt=""
+    className="sc-bxivhb hcizMv"
+    src={Object {}}
+  />
+</div>
+`;
