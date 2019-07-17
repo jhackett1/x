@@ -1,5 +1,4 @@
 export default {
-
     // typography
     darkText: "#1E2428",
     lightText: "#555F66",
@@ -23,13 +22,13 @@ export default {
     cultural: "#FAC9A3",
     social: "#A9BAE1",
 
-    maxWidth: 1000,
+    maxWidth: "1000px",
 
     // breakpoints
-    smartphone: 250,
-    tablet: 750,
-    desktop: 1000,
-    largeDesktop: 1500,
+    smartphone: "250px",
+    tablet: "750px",
+    desktop: "1000px",
+    largeDesktop: "1500px",
 
     // base font sizes
     title: "2em",
